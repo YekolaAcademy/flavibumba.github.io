@@ -1,452 +1,903 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Diversity United FC | Official Website</title>
-		<meta name="description" content="Welcome to the Official Diversity United Football Club website. Get the official Diversity United news,
-		fixtures, results, Brighton and hove, Saturday league football"/>
-		<meta name="keywords" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="_css/main.css" rel="stylesheet" media="screen, projection">
-		<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript" src="scripts/sliding_panels.js"></script>
-		<script>
-		function toggleNavPanel(x){
-		var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="300px";
-		if(panel.style.height == maxH){
-        panel.style.height = "0px";
-        navarrow.innerHTML = "&#9662;";
-		} else {
-        panel.style.height = maxH;
-        navarrow.innerHTML = "&#9652;";
-		}
-		}
-	</script>
-
-		<style>
-			
-		body{
-			background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 27%, rgba(30,87,153,1) 36%, rgba(30,87,153,1) 42%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 62%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0.43) 92%, rgba(30,87,153,0.22) 96%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(30,87,153,1) 27%,rgba(30,87,153,1) 36%,rgba(30,87,153,1) 42%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 62%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0.43) 92%,rgba(30,87,153,0.22) 96%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(30,87,153,1) 27%,rgba(30,87,153,1) 36%,rgba(30,87,153,1) 42%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 62%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0.43) 92%,rgba(30,87,153,0.22) 96%,rgba(30,87,153,0) 100%); /* player-containerC, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
-		}	
-		
-		@media only screen and (max-width:480px){
-		
-		.mission p{color: white; }
-		}
-		@media only screen and (min-width:481px) and (max-width:768px){
-		
-		.mission p{color: white; }
-		}
-
-
-}
-		</style>
-
-	</head>
-	
-	<body id="page">
-			<!-- Header of the page -->
-			<header id="pageHeader" role="banner">
-					<h1><span>Diversity United FC</span></h1>
-					<h2>we Celebrate the victory </h2>
-			</header>
-			
-			<!-- Main navigation -->	
-			<nav id="mainNav" role="navigation" class="cf">
-				<h2>Site navigation</h2>
-				<ul class="topMenu expand">		  
-					<li><a href="index.html" title="Home" > 
-					<svg xmlns="http://www.player-container.org/2000/svg" width="32" height="17" viewBox="0 0 32 32"><path d="M32 18.452L16 6.032 0 18.452v-5.064L16 .968l16 12.42zM28 18v12h-8v-8h-8v8H4V18l12-9z"/></svg>
-											</a></li>
-					<li><a href="aboutus.html" title="About Us?" class="about">About</a></li>
-					<li class="hover">
-					<h3>News & Matches <span class="navarrow">&#9662;</span> </h3>
-					<ul class="submenu expand">
-					<li><a href="fixtures.html" title="Latest News" >News & Matches</a>
-					<li><a href="results.html" title="Results" >Fixtures & Results</a></li>
-					<li><a href="aboutus.html" title="About Us" >Our Club</a></li>
-					<li><a href="training.html" title="Training" >Training </a></li>
-					<li><a href="leaguetable.html" title="League Table" >League Table</a></li>
-				</ul>
-					</li>
-					<li><a href="gallery.html" title="gallery" class="interact">Gallery</a></li>
-					<li class="hover">
-					  <h3>Team <span class="navarrow">&#9662;</span> </h3>
-				<ul class="submenu expand">
-					<li><a href="team.html" title="team" >Squad</a>
-					<li><a href="article.html" title="Fixtures" >Fixtures</a></li>
-					<li><a href="article.html" title="Match Report" >Match Reports</a></li>
-					<li><a href="homeground.html" title="Home Ground" >Home Ground</a></li>
-					<li><a href="leaguetable.html" title="League Table" >League Table</a></li>
-				</ul>
-					</li>
-					<li><a href="contact.php" title="Contact Us" class="about">Contact</a></li>
-				</ul>
-		</nav>
-		
-		<!-- Main page -->
-		<section id="content" role="main" class="cf">
-			<!--Team banner and Call to action -->
-			<div class="mission">
-					<p> Welcome to our site, Diversity United F.C., founded in 2016, Is proud to be one of the Saturday League team playing in Brighton and Worthing district league
-									 and Sussex F.A. affiliated Club.<br><br>
-					<a class="btn" href="contactform.html"> <span>Join Our Club  </span></a> </p>
-			</div>
-			
-			<!-- Main Article -->	
-			<article id="latest">
-			
-			<section class="first_content match_content" >
-				<div class= "article1 column1 LastMatch">					  
-					<h1>Last Match</h1>
-					<h3>Diversity United vs Worthing Dynamos</h3>
-					<h3> 3  - 2 </h3>
-					<p>April 1, 2017</p>									
-					<p>Saturday League</p>					
-					<p><a class="linkstyle" href="results.html">View all results</a></p>
-			    </div>
-									 
-				<div class= "article1 column2 NextMatch">
-					<h1>Next Match</h1>
-					<h3>AFC Sparta vs Diversity United </h3>
-					<h3>March 19, 2018</h3>
-					<p>KickOff : 2pm</p>
-					<p>Durrington Rec</p>									
-					<br>
-					<p> <a class="linkstyle" href="fixtures.html">Latest News </a></p>
-				</div>							
-			</section>
-
-			<section class="sliding_panels first_content" style="margin:3em .1em .15em .2em">
-		
-				<!--Players stat sliding panel --> 
-				<div class="sp" >
-					<section class="tabs">
-							<span class="goal_scorer">Top Goal Scorers</span><span class="most_assist">Most Assists</span><span class="clean_sheet">Most clean sheet </span>
-					</section>
-					
-					<section class="panel_container">
-						<section class="panels">
-							<!-- Top goal Scorers panel -->
-							<section class="panel goal_scorer" >
-								<section class="panel_content" >								
-									<section class=" panels_content">
-										
-										<section class= "article1">
-											<ul>
-												<li class="comment">
-													<section class="comment-meta">
-													 <img src="_images/precius.jpg" width="80" height="80" alt="player image">
-													 <h4>Precious Aigbogun </h4>
-													 <span>Striker</span>
-													 </section>
-													 <blockquote  class="comment player-container-blue">
-													 <p>12 goals</p>
-													 </blockquote>
-												</li>
-												<li class="comment">
-													<section class="comment-meta">
-													<img src="_images/imade.jpg" width="80" height="80" alt="player image">
-													<h4>Uyi Imade</h4>
-													<span>Striker</span>
-													</section>
-													<blockquote class="comment player-container-blue">
-													<p>10 goals</p>
-													</blockquote>
-												</li>
-												<li class="comment">
-													<section class="comment-meta">
-													<img src="_images/ben.jpg" width="80" height="80" alt="player image">
-													<h4>Ben Aboubacar </h4>
-													<span>Striker</span>
-													</section>
-													<blockquote class="comment player-container-blue">
-													<p>8 goals</p>
-													</blockquote>
-												</li>		  
-											</ul>
-										</section>
-									
-									</section>
-								</section>
-							</section>
-							<!-- end of top goal Scorers panel -->
-							
-							<!--  Most assists panel -->
-							<section class="panel most_assist">
-									<section class="panel_content">
-										<section class=" panels_content">
-											
-											<section class= "article1 ">
-												<ul>
-													<li class="comment">
-													  <section class="comment-meta">
-													  <img src="_images/desire1.jpg" width="80" height="80" alt="player image">
-													  <h4>Desire Orlu </h4>
-													  <span>Midfielder</span>
-													  </section>
-													  <blockquote class="comment player-container-blue">
-													  <p>14 goal assists</p>
-													  </blockquote>
-													</li>
-													<li class="comment">
-														<section class="comment-meta">
-														<img src="_images/precioustwo_190x179 (2).jpg" width="80" height="80" alt="player image">
-														<h4>Precious A</h4>
-														<span>Midfielder</span>
-													    </section>
-														<blockquote class="comment player-container-blue">
-														<p>9 goal assists</p>
-														</blockquote>
-													</li>
-												</ul>
-											</section>
-											
-										</section>
-									</section>
-								</section>
-								<!-- end of most assist panel -->
-								
-								<!-- GK cleansheet panel -->
-								<section class="panel clean_sheet">
-									<section class="panel_content">
-										<section class=" panels_content">
-											<section class= "article1 ">
-													<ul>
-														<li class="comment">
-														  <section class="comment-meta">
-														  <img src="_images/desire1.jpg" width="80" height="80" alt="player image">
-														  <h4>James Agada </h4>
-														  <span>Goal Keeper</span>
-														  </section>
-														  <blockquote class="comment player-container-blue">
-														  <p>14 clean sheets</p>
-														   </blockquote>
-														</li>
-														<li class="comment">
-															<section class="comment-meta">
-															<img src="_images/flavi.jpg" width="80" height="80" alt="player image">
-															<h4>Flavi Bumba</h4>
-															<span>Goal Keeper</span>
-														   </section>
-															<blockquote class="comment player-container-blue">
-															<p>9 clean sheets </p>
-															</blockquote>
-														</li>	
-												    </ul>
-											</section>
-											
-										</section>
-									</section>
-								</section>
-								<!-- end of GK panel -->
-							</section>
-					</div>
-				<!-- End - Sliding Tabbed Panels -->
-			
-					<div class= "article1 column_tab2 tabSlides">
-										
-						
-						<section class="player_display_container mySlides">
-							  <img src="_images/BenOne_1_190x179.jpg" style="width:100%">
-							  <section class="player-container-display-topleft ">
-								PLAYERS
-							  </section>
-							  <section class="player-container-display-bottomright">
-								9&nbsp; Ben Abou
-							  </section>
-							 
-						</section>
-						
-						
-						<section class="player_display_container mySlides">
-								<img src="_images/PreciousTwo_190x179.jpg" style="width:100%">
-						   <section class="player-container-display-topleft ">
-								PLAYERS
-							</section>
-							<section class="player-container-display-bottomright ">
-										7&nbsp; Precious A
-							 </section>
-						</section>
-
-						<section class="player_display_container mySlides">
-								<img src="_images/Santi_190x179.jpg" style="width:100%">
-							<section class="player-container-display-topleft ">
-										PLAYERS
-							</section>
-							<section class="player-container-display-bottomright ">
-											10&nbsp; Santi Alain
-							</section>
-						</section>
-
-						<section class="player_display_container mySlides">
-							  <img src="_images/Jeff_190x179.jpg" style="width:100%">
-							   <section class="player-container-display-topleft">
-								PLAYERS
-							  </section>
-							  <section class="player-container-display-bottomright ">
-								8&nbsp; Jeff Senyonjo
-							  </section>
-						</section>
-
-						<section class="player_display_container mySlides">
-							  <img src="_images/Ibs_190x179.jpg" style="width:100%">
-							  <section class="player-container-display-topleft  ">
-								PLAYERS
-							  </section>
-							  <section class="player-container-display-bottomright">
-								12&nbsp; Ibs
-							  </section>
-						</section>
-						
-						<section class="player_display_container mySlides">
-							  <img src="_images/Danny_190x179.jpg" style="width:100%">
-							  <section class="player-container-display-topleft  ">
-								PLAYERS
-							  </section>
-							  <section class="player-container-display-bottomright">
-								12&nbsp; Desire 
-							  </section>
-						</section>
-
-
-					<button class="button display-left " onclick="plusDivs(-1)" style="background-color: yellow;">&#10094;</button>
-					<button class="button display-right " onclick="plusDivs(1)" style="background-color: yellow;" >&#10095;</button>
-
-					<section>
-						<p><a class="btn">  View full squad </a></p>
-					<section>
-							
-				</div>	
-		
-		</section>
-	 </article>
-	 
-	 <!-- aside bar -->
-	<aside role="complementary" style="margin:3em .1em .15em .2em">
-		  <h2> League Table 2016/17 Season </h2>
-	 <table id="t01">
-		<tr>
-		<th>Team</th>
-		<th>P</th>  
-		<th>PTS</th>
-		</tr>
-		<tr>
-		<td>WOODINGDEAN WANDERERS</td>    		
-		<td>14</td>
-		<td>38</td>
-		</tr>
-		<tr>
-		<td>ROMANS UNITED</td>    		
-		<td>14</td>  
-		<td>36</td>
-		</tr>
-		<tr>
-		<td>THE VIEW</td>    		
-		<td>15</td>
-		<td>26</td>
-		</tr>
-		<tr>
-	   <td>DIVERSITY UNITED</td>    		
-		<td>14</td> 
-		<td>24</td>
-		</tr>
-		<tr>
-		<td>THE LECTERN</td>    		
-		<td>13</td>
-		<td>16</td>
-		</tr>
-		<tr>
-		<td>ST PETERS</td>    		
-		<td>15</td>
-		<td>16</td>
-		</tr>
-		<tr>
-		<td>BOYS BRIGADE OLD BOYS</td>    	
-		<td>16</td>
-		<td>14</td>
-		</tr>
-		<tr>
-		<td>HANGLETON FC II</td>    		
-		<td>16</td>  	
-		<td>14</td>
-		</tr>
-		<tr>
-		<td>SOUTHWICK RANGERS II</td>    		
-		<td>15</td> 	
-		<td>5</td>
-		</tr>
-	</table>
-	  
-	<!--Facebook page banner -->
-	<section class="contest" style="margin-top:2em;">
-		  <h2 class="facebookheader">Find us on Facebook</h2>
-		  <h2 class="hidden">Find us on social media</h2>
-		
-		<div class="facebookpage">
-			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDiversityUnitedFC%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
-			width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
-			</iframe>
-		</div> 
-	</section>
-	
-	</aside>
-	
-   </section>		  	
-		
-   <footer id="pageFooter">
-		 
-		 
-		 
-		<div id="socialmedia">
-		  <ul class="group">
-			<li><a href="https://twitter.com/"><img class="icon-twitter" src="_images/twitter.png" alt="icon for twitter" /></a></li>
-			<li><a href="https://www.facebook.com/DiversityUnitedFC/?ref=bookmarks"><img class="icon-facebook" src="_images/facebook.png" alt="icon for facebook" /></a></li>
-			<li><a href="https://www.youtube.com/channel/UCw3n0rBi32XbEAKyeKyJrNg"><img class="icon-youtube" src="_images/youtube.png" alt="icon for youtube" /></a></li>    
-		  </ul>      
-		</div>	 
-		 <div> <p class="notice">&copy; 2017 Diversity United &Tab;&#124;&Tab;Site design by Flavi Bumba </p> </div>
-	</footer>
-				  <script src="_scripts/modernizr.custom.js"></script>
-				<script>
-				//use the modernizr load to load up external scripts. This will load the scripts asynchronously and it will execute them in the order listed
-				Modernizr.load([
-				{
-					load: [  
-						'http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js',
-						'_scripts/respondnav.js'  
-					]
-				},
-				{
-					// test for media query support, if not load respond.js
-					test : Modernizr.mq('only all'),
-					// If not, load the respond.js file
-					nope : '/_scripts/respond.js' 
-				}
-				]); 
-				
-					
-					var slideIndex = 1;
-					showDivs(slideIndex);
-
-					function plusDivs(n) {
-					  showDivs(slideIndex += n);
-					}
-
-					function showDivs(n) {
-					  var i;
-					  var x = document.getElementsByClassName("mySlides");
-					  if (n > x.length) {slideIndex = 1}    
-					  if (n < 1) {slideIndex = x.length}
-					  for (i = 0; i < x.length; i++) {
-						 x[i].style.display = "none";  
-					  }
-					  x[slideIndex-1].style.display = "block";  
-					}
-					
-				</script>
-	</body>
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>Diversity United FC | Official Website</title>
+
+		<meta name="description" content="Welcome to the Official Diversity United Football Club website. Get the official Diversity United news,
+
+		fixtures, results, Brighton and hove, Saturday league football"/>
+
+		<meta name="keywords" content="">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="main.css" rel="stylesheet" media="screen, projection">
+
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+		<script type="text/javascript" src="sliding_panels.js"></script>
+
+		<script>
+
+		function toggleNavPanel(x){
+
+		var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="300px";
+
+		if(panel.style.height == maxH){
+
+        panel.style.height = "0px";
+
+        navarrow.innerHTML = "&#9662;";
+
+		} else {
+
+        panel.style.height = maxH;
+
+        navarrow.innerHTML = "&#9652;";
+
+		}
+
+		}
+
+	</script>
+
+
+
+		<style>
+
+			
+
+		body{
+
+			background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 27%, rgba(30,87,153,1) 36%, rgba(30,87,153,1) 42%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 62%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0.43) 92%, rgba(30,87,153,0.22) 96%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+
+			background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(30,87,153,1) 27%,rgba(30,87,153,1) 36%,rgba(30,87,153,1) 42%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 62%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0.43) 92%,rgba(30,87,153,0.22) 96%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+
+			background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(30,87,153,1) 27%,rgba(30,87,153,1) 36%,rgba(30,87,153,1) 42%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 62%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0.43) 92%,rgba(30,87,153,0.22) 96%,rgba(30,87,153,0) 100%); /* player-containerC, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
+
+		}	
+
+		
+
+		@media only screen and (max-width:480px){
+
+		
+
+		.mission p{color: white; }
+
+		}
+
+		@media only screen and (min-width:481px) and (max-width:768px){
+
+		
+
+		.mission p{color: white; }
+
+		}
+
+
+
+
+
+}
+
+		</style>
+
+
+
+	</head>
+
+	
+
+	<body id="page">
+
+			<!-- Header of the page -->
+
+			<header id="pageHeader" role="banner">
+
+					<h1><span>Diversity United FC</span></h1>
+
+					<h2>we Celebrate the victory </h2>
+
+			</header>
+
+			
+
+			<!-- Main navigation -->	
+
+			<nav id="mainNav" role="navigation" class="cf">
+
+				<h2>Site navigation</h2>
+
+				<ul class="topMenu expand">		  
+
+					<li><a href="index.html" title="Home" > 
+
+					<svg xmlns="http://www.player-container.org/2000/svg" width="32" height="17" viewBox="0 0 32 32"><path d="M32 18.452L16 6.032 0 18.452v-5.064L16 .968l16 12.42zM28 18v12h-8v-8h-8v8H4V18l12-9z"/></svg>
+
+											</a></li>
+
+					<li><a href="aboutus.html" title="About Us?" class="about">About</a></li>
+
+					<li class="hover">
+
+					<h3>News & Matches <span class="navarrow">&#9662;</span> </h3>
+
+					<ul class="submenu expand">
+
+					<li><a href="fixtures.html" title="Latest News" >News & Matches</a>
+
+					<li><a href="results.html" title="Results" >Fixtures & Results</a></li>
+
+					<li><a href="aboutus.html" title="About Us" >Our Club</a></li>
+
+					<li><a href="training.html" title="Training" >Training </a></li>
+
+					<li><a href="leaguetable.html" title="League Table" >League Table</a></li>
+
+				</ul>
+
+					</li>
+
+					<li><a href="gallery.html" title="gallery" class="interact">Gallery</a></li>
+
+					<li class="hover">
+
+					  <h3>Team <span class="navarrow">&#9662;</span> </h3>
+
+				<ul class="submenu expand">
+
+					<li><a href="team.html" title="team" >Squad</a>
+
+					<li><a href="article.html" title="Fixtures" >Fixtures</a></li>
+
+					<li><a href="article.html" title="Match Report" >Match Reports</a></li>
+
+					<li><a href="homeground.html" title="Home Ground" >Home Ground</a></li>
+
+					<li><a href="leaguetable.html" title="League Table" >League Table</a></li>
+
+				</ul>
+
+					</li>
+
+					<li><a href="contact.php" title="Contact Us" class="about">Contact</a></li>
+
+				</ul>
+
+		</nav>
+
+		
+
+		<!-- Main page -->
+
+		<section id="content" role="main" class="cf">
+
+			<!--Team banner and Call to action -->
+
+			<div class="mission">
+
+					<p> Welcome to our site, Diversity United F.C., founded in 2016, Is proud to be one of the Saturday League team playing in Brighton and Worthing district league
+
+									 and Sussex F.A. affiliated Club.<br><br>
+
+					<a class="btn" href="contactform.html"> <span>Join Our Club  </span></a> </p>
+
+			</div>
+
+			
+
+			<!-- Main Article -->	
+
+			<article id="latest">
+
+			
+
+			<section class="first_content match_content" >
+
+				<div class= "article1 column1 LastMatch">					  
+
+					<h1>Last Match</h1>
+
+					<h3>Diversity United vs Worthing Dynamos</h3>
+
+					<h3> 3  - 2 </h3>
+
+					<p>April 1, 2017</p>									
+
+					<p>Saturday League</p>					
+
+					<p><a class="linkstyle" href="results.html">View all results</a></p>
+
+			    </div>
+
+									 
+
+				<div class= "article1 column2 NextMatch">
+
+					<h1>Next Match</h1>
+
+					<h3>AFC Sparta vs Diversity United </h3>
+
+					<h3>March 19, 2018</h3>
+
+					<p>KickOff : 2pm</p>
+
+					<p>Durrington Rec</p>									
+
+					<br>
+
+					<p> <a class="linkstyle" href="fixtures.html">Latest News </a></p>
+
+				</div>							
+
+			</section>
+
+
+
+			<section class="sliding_panels first_content" style="margin:3em .1em .15em .2em">
+
+		
+
+				<!--Players stat sliding panel --> 
+
+				<div class="sp" >
+
+					<section class="tabs">
+
+							<span class="goal_scorer">Top Goal Scorers</span><span class="most_assist">Most Assists</span><span class="clean_sheet">Most clean sheet </span>
+
+					</section>
+
+					
+
+					<section class="panel_container">
+
+						<section class="panels">
+
+							<!-- Top goal Scorers panel -->
+
+							<section class="panel goal_scorer" >
+
+								<section class="panel_content" >								
+
+									<section class=" panels_content">
+
+										
+
+										<section class= "article1">
+
+											<ul>
+
+												<li class="comment">
+
+													<section class="comment-meta">
+
+													 <img src="_images/precius.jpg" width="80" height="80" alt="player image">
+
+													 <h4>Precious Aigbogun </h4>
+
+													 <span>Striker</span>
+
+													 </section>
+
+													 <blockquote  class="comment player-container-blue">
+
+													 <p>12 goals</p>
+
+													 </blockquote>
+
+												</li>
+
+												<li class="comment">
+
+													<section class="comment-meta">
+
+													<img src="_images/imade.jpg" width="80" height="80" alt="player image">
+
+													<h4>Uyi Imade</h4>
+
+													<span>Striker</span>
+
+													</section>
+
+													<blockquote class="comment player-container-blue">
+
+													<p>10 goals</p>
+
+													</blockquote>
+
+												</li>
+
+												<li class="comment">
+
+													<section class="comment-meta">
+
+													<img src="_images/ben.jpg" width="80" height="80" alt="player image">
+
+													<h4>Ben Aboubacar </h4>
+
+													<span>Striker</span>
+
+													</section>
+
+													<blockquote class="comment player-container-blue">
+
+													<p>8 goals</p>
+
+													</blockquote>
+
+												</li>		  
+
+											</ul>
+
+										</section>
+
+									
+
+									</section>
+
+								</section>
+
+							</section>
+
+							<!-- end of top goal Scorers panel -->
+
+							
+
+							<!--  Most assists panel -->
+
+							<section class="panel most_assist">
+
+									<section class="panel_content">
+
+										<section class=" panels_content">
+
+											
+
+											<section class= "article1 ">
+
+												<ul>
+
+													<li class="comment">
+
+													  <section class="comment-meta">
+
+													  <img src="_images/desire1.jpg" width="80" height="80" alt="player image">
+
+													  <h4>Desire Orlu </h4>
+
+													  <span>Midfielder</span>
+
+													  </section>
+
+													  <blockquote class="comment player-container-blue">
+
+													  <p>14 goal assists</p>
+
+													  </blockquote>
+
+													</li>
+
+													<li class="comment">
+
+														<section class="comment-meta">
+
+														<img src="_images/precioustwo_190x179 (2).jpg" width="80" height="80" alt="player image">
+
+														<h4>Precious A</h4>
+
+														<span>Midfielder</span>
+
+													    </section>
+
+														<blockquote class="comment player-container-blue">
+
+														<p>9 goal assists</p>
+
+														</blockquote>
+
+													</li>
+
+												</ul>
+
+											</section>
+
+											
+
+										</section>
+
+									</section>
+
+								</section>
+
+								<!-- end of most assist panel -->
+
+								
+
+								<!-- GK cleansheet panel -->
+
+								<section class="panel clean_sheet">
+
+									<section class="panel_content">
+
+										<section class=" panels_content">
+
+											<section class= "article1 ">
+
+													<ul>
+
+														<li class="comment">
+
+														  <section class="comment-meta">
+
+														  <img src="_images/desire1.jpg" width="80" height="80" alt="player image">
+
+														  <h4>James Agada </h4>
+
+														  <span>Goal Keeper</span>
+
+														  </section>
+
+														  <blockquote class="comment player-container-blue">
+
+														  <p>14 clean sheets</p>
+
+														   </blockquote>
+
+														</li>
+
+														<li class="comment">
+
+															<section class="comment-meta">
+
+															<img src="_images/flavi.jpg" width="80" height="80" alt="player image">
+
+															<h4>Flavi Bumba</h4>
+
+															<span>Goal Keeper</span>
+
+														   </section>
+
+															<blockquote class="comment player-container-blue">
+
+															<p>9 clean sheets </p>
+
+															</blockquote>
+
+														</li>	
+
+												    </ul>
+
+											</section>
+
+											
+
+										</section>
+
+									</section>
+
+								</section>
+
+								<!-- end of GK panel -->
+
+							</section>
+
+					</div>
+
+				<!-- End - Sliding Tabbed Panels -->
+
+			
+
+					<div class= "article1 column_tab2 tabSlides">
+
+										
+
+						
+
+						<section class="player_display_container mySlides">
+
+							  <img src="_images/BenOne_1_190x179.jpg" style="width:100%">
+
+							  <section class="player-container-display-topleft ">
+
+								PLAYERS
+
+							  </section>
+
+							  <section class="player-container-display-bottomright">
+
+								9&nbsp; Ben Abou
+
+							  </section>
+
+							 
+
+						</section>
+
+						
+
+						
+
+						<section class="player_display_container mySlides">
+
+								<img src="_images/PreciousTwo_190x179.jpg" style="width:100%">
+
+						   <section class="player-container-display-topleft ">
+
+								PLAYERS
+
+							</section>
+
+							<section class="player-container-display-bottomright ">
+
+										7&nbsp; Precious A
+
+							 </section>
+
+						</section>
+
+
+
+						<section class="player_display_container mySlides">
+
+								<img src="_images/Santi_190x179.jpg" style="width:100%">
+
+							<section class="player-container-display-topleft ">
+
+										PLAYERS
+
+							</section>
+
+							<section class="player-container-display-bottomright ">
+
+											10&nbsp; Santi Alain
+
+							</section>
+
+						</section>
+
+
+
+						<section class="player_display_container mySlides">
+
+							  <img src="_images/Jeff_190x179.jpg" style="width:100%">
+
+							   <section class="player-container-display-topleft">
+
+								PLAYERS
+
+							  </section>
+
+							  <section class="player-container-display-bottomright ">
+
+								8&nbsp; Jeff Senyonjo
+
+							  </section>
+
+						</section>
+
+
+
+						<section class="player_display_container mySlides">
+
+							  <img src="_images/Ibs_190x179.jpg" style="width:100%">
+
+							  <section class="player-container-display-topleft  ">
+
+								PLAYERS
+
+							  </section>
+
+							  <section class="player-container-display-bottomright">
+
+								12&nbsp; Ibs
+
+							  </section>
+
+						</section>
+
+						
+
+						<section class="player_display_container mySlides">
+
+							  <img src="_images/Danny_190x179.jpg" style="width:100%">
+
+							  <section class="player-container-display-topleft  ">
+
+								PLAYERS
+
+							  </section>
+
+							  <section class="player-container-display-bottomright">
+
+								12&nbsp; Desire 
+
+							  </section>
+
+						</section>
+
+
+
+
+
+					<button class="button display-left " onclick="plusDivs(-1)" style="background-color: yellow;">&#10094;</button>
+
+					<button class="button display-right " onclick="plusDivs(1)" style="background-color: yellow;" >&#10095;</button>
+
+
+
+					<section>
+
+						<p><a class="btn">  View full squad </a></p>
+
+					<section>
+
+							
+
+				</div>	
+
+		
+
+		</section>
+
+	 </article>
+
+	 
+
+	 <!-- aside bar -->
+
+	<aside role="complementary" style="margin:3em .1em .15em .2em">
+
+		  <h2> League Table 2016/17 Season </h2>
+
+	 <table id="t01">
+
+		<tr>
+
+		<th>Team</th>
+
+		<th>P</th>  
+
+		<th>PTS</th>
+
+		</tr>
+
+		<tr>
+
+		<td>WOODINGDEAN WANDERERS</td>    		
+
+		<td>14</td>
+
+		<td>38</td>
+
+		</tr>
+
+		<tr>
+
+		<td>ROMANS UNITED</td>    		
+
+		<td>14</td>  
+
+		<td>36</td>
+
+		</tr>
+
+		<tr>
+
+		<td>THE VIEW</td>    		
+
+		<td>15</td>
+
+		<td>26</td>
+
+		</tr>
+
+		<tr>
+
+	   <td>DIVERSITY UNITED</td>    		
+
+		<td>14</td> 
+
+		<td>24</td>
+
+		</tr>
+
+		<tr>
+
+		<td>THE LECTERN</td>    		
+
+		<td>13</td>
+
+		<td>16</td>
+
+		</tr>
+
+		<tr>
+
+		<td>ST PETERS</td>    		
+
+		<td>15</td>
+
+		<td>16</td>
+
+		</tr>
+
+		<tr>
+
+		<td>BOYS BRIGADE OLD BOYS</td>    	
+
+		<td>16</td>
+
+		<td>14</td>
+
+		</tr>
+
+		<tr>
+
+		<td>HANGLETON FC II</td>    		
+
+		<td>16</td>  	
+
+		<td>14</td>
+
+		</tr>
+
+		<tr>
+
+		<td>SOUTHWICK RANGERS II</td>    		
+
+		<td>15</td> 	
+
+		<td>5</td>
+
+		</tr>
+
+	</table>
+
+	  
+
+	<!--Facebook page banner -->
+
+	<section class="contest" style="margin-top:2em;">
+
+		  <h2 class="facebookheader">Find us on Facebook</h2>
+
+		  <h2 class="hidden">Find us on social media</h2>
+
+		
+
+		<div class="facebookpage">
+
+			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDiversityUnitedFC%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+
+			width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+
+			</iframe>
+
+		</div> 
+
+	</section>
+
+	
+
+	</aside>
+
+	
+
+   </section>		  	
+
+		
+
+   <footer id="pageFooter">
+
+		 
+
+		 
+
+		 
+
+		<div id="socialmedia">
+
+		  <ul class="group">
+
+			<li><a href="https://twitter.com/"><img class="icon-twitter" src="_images/twitter.png" alt="icon for twitter" /></a></li>
+
+			<li><a href="https://www.facebook.com/DiversityUnitedFC/?ref=bookmarks"><img class="icon-facebook" src="_images/facebook.png" alt="icon for facebook" /></a></li>
+
+			<li><a href="https://www.youtube.com/channel/UCw3n0rBi32XbEAKyeKyJrNg"><img class="icon-youtube" src="_images/youtube.png" alt="icon for youtube" /></a></li>    
+
+		  </ul>      
+
+		</div>	 
+
+		 <div> <p class="notice">&copy; 2017 Diversity United &Tab;&#124;&Tab;Site design by Flavi Bumba </p> </div>
+
+	</footer>
+
+				  <script src="modernizr.custom.js"></script>
+
+				<script>
+
+				//use the modernizr load to load up external scripts. This will load the scripts asynchronously and it will execute them in the order listed
+
+				Modernizr.load([
+
+				{
+
+					load: [  
+
+						'http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js',
+
+						'_scripts/respondnav.js'  
+
+					]
+
+				},
+
+				{
+
+					// test for media query support, if not load respond.js
+
+					test : Modernizr.mq('only all'),
+
+					// If not, load the respond.js file
+
+					nope : '/_scripts/respond.js' 
+
+				}
+
+				]); 
+
+				
+
+					
+
+					var slideIndex = 1;
+
+					showDivs(slideIndex);
+
+
+
+					function plusDivs(n) {
+
+					  showDivs(slideIndex += n);
+
+					}
+
+
+
+					function showDivs(n) {
+
+					  var i;
+
+					  var x = document.getElementsByClassName("mySlides");
+
+					  if (n > x.length) {slideIndex = 1}    
+
+					  if (n < 1) {slideIndex = x.length}
+
+					  for (i = 0; i < x.length; i++) {
+
+						 x[i].style.display = "none";  
+
+					  }
+
+					  x[slideIndex-1].style.display = "block";  
+
+					}
+
+					
+
+				</script>
+
+	</body>
+
 </html>
